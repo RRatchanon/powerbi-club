@@ -597,6 +597,20 @@ if(!is_null($events)){
                                     'https://liff.line.me/1654945197-be2v6lWG'
                                 ),     
                             );
+                            $actionBuilder7 = array(
+                                new UriTemplateActionBuilder(
+                                    '- Coming Soon -',// ข้อความแสดงในปุ่ม
+                                    'https://liff.line.me/1654945197-be2v6lWG'
+                                ),
+                                new UriTemplateActionBuilder(
+                                    '- Coming Soon -', // ข้อความแสดงในปุ่ม
+                                    'https://liff.line.me/1654945197-be2v6lWG'
+                                ),
+                                new UriTemplateActionBuilder(
+                                    '- Coming Soon -', // ข้อความแสดงในปุ่ม
+                                    'https://liff.line.me/1654945197-be2v6lWG'
+                                ),     
+                            );
                             $replyData = new TemplateMessageBuilder('Carousel',
                                 new CarouselTemplateBuilder(
                                     array(
@@ -629,7 +643,13 @@ if(!is_null($events)){
                                             'ทำความรู้จัก ETL',
                                             'https://bcplineoa.bangchak.co.th/powerbi-club/uploadimage/c5.png',
                                             $actionBuilder5
-                                        ),                                         
+                                        ),
+                                        new CarouselColumnTemplateBuilder(
+                                            'EP.07',
+                                            'Workshop 1',
+                                            'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/LINE_logo.svg/768px-LINE_logo.svg.png',
+                                            $actionBuilder7
+                                        ),                                             
                                     )
                                 )
                             );
