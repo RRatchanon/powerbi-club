@@ -599,15 +599,15 @@ if(!is_null($events)){
                             );
                             $actionBuilder7 = array(
                                 new UriTemplateActionBuilder(
-                                    '- Coming Soon -',// ข้อความแสดงในปุ่ม
+                                    'หลักการของ DAX',// ข้อความแสดงในปุ่ม
                                     'https://liff.line.me/1654945197-be2v6lWG'
                                 ),
                                 new UriTemplateActionBuilder(
-                                    '- Coming Soon -', // ข้อความแสดงในปุ่ม
+                                    'Calculated Columns', // ข้อความแสดงในปุ่ม
                                     'https://liff.line.me/1654945197-be2v6lWG'
                                 ),
                                 new UriTemplateActionBuilder(
-                                    '- Coming Soon -', // ข้อความแสดงในปุ่ม
+                                    'Calculated Measures', // ข้อความแสดงในปุ่ม
                                     'https://liff.line.me/1654945197-be2v6lWG'
                                 ),     
                             );
@@ -646,8 +646,8 @@ if(!is_null($events)){
                                         ),
                                         new CarouselColumnTemplateBuilder(
                                             'EP.07',
-                                            'Workshop 1',
-                                            'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/LINE_logo.svg/768px-LINE_logo.svg.png',
+                                            'DAX # 1',
+                                            'https://www.wallstreetmojo.com/wp-content/uploads/2019/09/Power-BI-DAX-3.png',
                                             $actionBuilder7
                                         ),                                             
                                     )
